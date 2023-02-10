@@ -1,0 +1,76 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block content%}
+<div class="dark:bg-black">
+    <div class="sticky top-0 z-50 bg-white">
+        {%include 'partials/navbar.html'%}
+    </div>
+    <div class="dark:bg-black md:flex justify-center max-w-6xl mx-auto space-x-10 pt-14">
+        <img class="img rounded-full w-36 h-36 px-4 md:w-48 md:ml-2 ml-5" src="{%static 'jonah.jpg'%}" alt="">
+        <div>
+            <span class=" pr-2 font-bold text-3xl dark:text-white">Jonah</span><i class="fa-solid fa-user-check text-blue-600"></i>
+            <div class="dark:text-gray-500 text-black pt-4">
+                <p>ebutejonah683@gmail.com</p>
+                <span><i class="fa-solid fa-location-dot text-blue-600"></i><span>&nbsp;Nigeria.</span></span>
+            </div> 
+            <div class="dark:text-gray-300 text-black pt-4">
+                <i class="fa-solid fa-briefcase"></i><span>&nbsp;Full-stack Developer</span>
+            </div>
+            <div class="flex dark:text-gray-500 text-black text-lg space-x-4">
+                <a href="https://twitter.com/ebute_jonah246"><i class="fa-brands fa-twitter text-blue-600"></i></a>
+                <a href="https://github.com/giftedmatrix"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jonah-ebute-142b1323a/"><i class="fa-brands fa-linkedin text-blue-600"></i></a>
+            </div>
+            <p class="font-bold dark:text-white text-2xl pt-10 pb-4">About Me</p>
+            <p class="py-4 font-semibold dark:text-gray-400">Hey&nbsp;<i class="fa-solid fa-hand text-yellow-400"></i>, I'm <span class="text-blue-600 text-lg">Jonah!</span></p>
+            <p class="py-4 text-xl text-blue-600 font-semibold">Welcome to my portfolio website. I'm super excited to have you here!</p>
+            <p class="text-lg dark:text-gray-400">I'm a self-taught Full-stack web developer(backend heavy).</p>
+            <p class="dark:text-gray-400 pb-10 text-lg">I've being programming for a year now and I have some live projects under my belt. I built a fully functioning Netflix clone site. I've also built a social media platform that has a bit of a mix of facebook, twitter and instagram. I'm also working on developing an E-Commerce Website. I'm opened to working either remotely or on location.</p>
+            <p class="text-2xl font-bold dark:text-white pb-4">Tech Stack</p>
+            <div class="">
+                <div class="md:flex md:space-x-24">
+                    <div class="pb-8">
+                        <p class="text-xl text-gray-500 dark:text-gray-500 pb-4">Languages</p>
+                        <p class="py-3"><i class="fa-brands fa-python text-blue-600 text-xl"></i>&nbsp;<span class="dark:text-gray-300">Python</span><span class="pl-5 text-gray-400">Expert</span></p>
+                        <p class="py-3"><i class="fa-brands fa-square-js text-xl text-yellow-600 dark:text-yellow-500"></i>&nbsp;<span class="dark:text-gray-300">Javascript</span><span class="pl-5 text-gray-400">Mid-Level</span></p>
+                        <p class="flex items-center py-3"><img class="w-5 h-5" src="{%static 'sql-5.png'%}" alt="">&nbsp;<span class="dark:text-gray-300">SQL</span><span class="pl-5 text-gray-400">Mid-Level</span></p>
+                        <p class="py-3"><i class="fa-brands fa-html5 text-xl text-orange-500"></i>&nbsp;<span class="dark:text-gray-300">HTML5.0</span><span class="pl-5 text-gray-400">Expert</span></p>
+                        <p class="py-3"><i class="fa-brands fa-css3-alt text-xl text-blue-500"></i>&nbsp;<span class="dark:text-gray-300">CSS3</span><span class="pl-5 text-gray-400">Expert</span></p>
+                    </div>
+                    <div class="pb-8">
+                        <p class="text-xl dark:text-gray-500 text-gray-500 pb-4">Frameworks</p>
+                        <p class="flex items-center py-3"><img class="w-5 h-5" src="{%static 'django-icon.webp'%}" alt=""><span class="dark:text-gray-300">Django</span><span class="pl-5 text-gray-400">Expert</span></p>
+                        <p class="flex items-center py-3"><img class="w-4 h-4 text-blue-600" src="{%static 'tailwind.png'%}" alt="">&nbsp;<span class="dark:text-gray-300">Tailwindcss</span><span class="pl-5 text-gray-400">Expert</span></p>
+                        <p class="flex items-center py-3"><img class="w-5 h-5" src="{%static 'node.png'%}" alt="">&nbsp;<span class="dark:text-gray-300">Node.js</span><span class="pl-5 text-gray-400">Mid-Level</span></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="pb-8">
+                        <p class="text-xl dark:text-gray-500 text-gray-500 pb-4">Platforms</p>
+                        <p class="dark:text-gray-300 py-3"><i class="fa-brands fa-aws text-xl text-yellow-600 dark:text-yellow-500"></i>&nbsp;AWS</p>
+                        <p class="dark:text-gray-300 flex items-center py-3"><img class="w-5 h-5" src="{%static 'heroku.png'%}" alt="">&nbsp;Heroku</p>
+                        <p class="dark:text-gray-300 flex items-center py-3"><img class="w-6 h-6" src="{%static 'railway.png'%}" alt="">&nbsp;Railway</p>
+                    </div>
+                    <div>
+                        <p class="text-xl dark:text-gray-500 pb-4 text-gray-500">IDE</p>
+                        <p class="dark:text-gray-300 flex items-center"><img class="w-5 h-5" src="{%static 'vsc.png'%}" alt="">&nbsp;Visual Studio Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-8">
+                <p class="dark:text-white font-bold text-2xl pt-10 pb-4">Projects</p>
+                <div>
+                    <a href=""></a>
+                    <p class="dark:text-gray-300">A fully functioning Netflix Clone Web App</p>
+                </div>
+                <div>
+                    <a href=""></a>
+                    <p class="dark:text-gray-300">A fully functioning Social Media Platform</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+{%include 'partials/footnote.html'%}
+{%endblock%}
