@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['jonahebute.com','www.jonahebute.cmom','mywebsite-production-9e8c.up.railway.app']
+ALLOWED_HOSTS = ['jonahebute.com','www.jonahebute.com','mywebsite-production-9e8c.up.railway.app']
 
 
 # Application definition
