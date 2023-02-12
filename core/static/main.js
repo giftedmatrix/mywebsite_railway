@@ -16,6 +16,7 @@ const themeCheck = ()=>{
         return
     }
     sunIcon.classList.add('display-none')
+   
 }
 
 const themeSwitch = ()=>{
